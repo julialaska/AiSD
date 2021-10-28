@@ -62,16 +62,7 @@ class LinkedList:
             tmp = self.head.value
             self.head = self.head.next
             return tmp
-        ## tmp = self.head
-        ## self.head = self.head.next
-        ## tmp.next = None
-        ## return tmp.value
-            # if self.head != None:
-            #     temp = self.head
-            #     temp2 = self.head.value
-            #     self.head = self.head.next
-            #     temp = None
-            #     return temp2
+      
 
     def remove_last(self) -> Any:
         last = self.head
