@@ -35,7 +35,7 @@ class LinkedList:
                 tail = tail.next
             tail.next = node
 
-    def node(self, at:int) -> None:
+    def node(self, at:int) -> Node:
         # if at >= self.len():
         #     return None
         i = 0
